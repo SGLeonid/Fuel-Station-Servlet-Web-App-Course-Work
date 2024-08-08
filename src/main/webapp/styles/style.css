@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: Montserrat;
+    src: url(./fonts/Montserrat-Regular.ttf);
+}
+
+
+h1 {
+    font-size: 36px;
+    margin: 15px 15px;
+}
+
+
+h2 {
+    font-size: 24px;
+    margin: 15px 15px;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    background: #28313d;
+}
+
+
+input[type="submit"] {
+    font-family: Montserrat;
+    font-size: 18px;
+    width: 250px;
+    height: 50px;
+    border: 1px solid #506473;
+    border-radius: 10px;
+    color: #506473;
+    background: none;
+    cursor: pointer;
+    margin: 15px 25px;
+}
+
+
+input[type="text"], input[type="password"] {
+    font-family: Montserrat;
+    font-size: 18px;
+    width: 250px;
+    height: 25px;
+    border: 1px solid #506473;
+    border-radius: 10px;
+}
+
+
+input[type="submit"]:hover {
+    color: #e9f3f5;
+    background: #506473;
+}
+
+
+.login_form {
+    font-family: Montserrat;
+
+    width: 600px;
+    height: 350px;
+    margin: 0 auto;
+    background: #e9f3f5;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    border-radius: 20px;
+    margin: auto;
+    text-align: center;
+}
+
+
+.text_field {
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+
+
+.menu_form {
+    font-family: Montserrat;
+
+    width: 600px;
+    height: 350px;
+    margin: 0 auto;
+    background: #e9f3f5;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    border-radius: 20px;
+    margin: auto;
+    text-align: center;
+}
+
+
+.table_form {
+    font-family: Montserrat;
+    color: #e9f3f5;
+}
+
+
+.table_form h2, h1 {
+    text-align: center;
+}
+
+
+.table_form input[type="submit"] {
+    color: #e9f3f5;
+    background: #506473;
+}
+
+
+.table_form input[type="submit"]:hover {
+    color: #e9f3f5;
+    background: #506473;
+}
+
+
+table {
+    font-family: Montserrat;
+
+    width: 100%;
+    table-layout: fixed;
+    owerflow-wrap: break-word;
+    color: #28313d;
+}
+
+
+th, td {
+    padding: 10px 20px;
+}
+
+
+th {
+    color: #e9f3f5;
+    background: #506473;
+    text-align: center;
+}
+
+
+th:first-child {
+    border-top-left-radius: 10px 10px;
+}
+
+
+th:last-child {
+    border-top-right-radius: 10px 10px;
+}
+
+
+td {
+    text-align: left;
+    border-bottom: 1px solid #506473;
+    background: #ffffff;
+}
