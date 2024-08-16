@@ -16,7 +16,7 @@ public class AzsServlet extends HttpServlet {
 
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/mysql", "root", "Gl30127602");
+            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/mysql", "root", "qwerty1234");
             message = "SUCCESSFULLY CONNECTED!!! ";
         } catch (SQLException | ClassNotFoundException e ) {
             message = e.getMessage();
